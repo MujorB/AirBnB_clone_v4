@@ -6,6 +6,7 @@ from flask import Flask, render_template, url_for
 from models import storage
 from uuid import uuid4
 
+
 # flask setup
 app = Flask(__name__)
 app.url_map.strict_slashes = False
